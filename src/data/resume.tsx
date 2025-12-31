@@ -122,7 +122,7 @@ export const DATA = {
       end: "2027",
     },
     {
-      school: "International University of Management",
+      school: "The International University of Management",
       href: "https://ium.edu.na/",
       degree: "Bachelor's Degree in Business Information Systems Honours",
       logoUrl: "/ium.png",
