@@ -8,9 +8,9 @@ export const DATA = {
   location: "Luanda, AO",
   locationLink: "",
   description:
-    "A software engineer who loves complex challenges and helping people. Feel free to get in Touch.",
+    "A software engineer who loves complex challenges and helping people, feel free to get in touch.",
   summary:
-    "I started developing applications around 2014, since then i have always kept up with the latest trends in technology mainly software development stacks, cloud computing and AI. I pursued a degree in business information systems where i also took part in a programming competition.",
+    "I started developing applications around 2014, since then i have always kept up with the latest trends in software engineering, cloud computing, AI-driven development, microservices and data-driven applications. I pursued a degree in business information systems where i also took part in a programming competition.",
   avatarUrl: "/.png",
   skills: [
     "React",
@@ -137,7 +137,7 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Developed custom pages and UI on the Taxpayers portal using JPA, JSF and Primefaces, developed modules and integration with SIGT and Oracle's PSRM using Java and Spring.",
+        "Developed custom pages and UI on the Taxpayers portal using JPA, JSF and Primefaces, developed modules and integration with SIGT and Oracle's PSRM using Java, Spring, Oracle, Gitlab CI.",
       technologies: [
         "Java",
         "JPA",
@@ -159,7 +159,6 @@ export const DATA = {
       image: "",
       video: "/portalcontribuinte.mp4",
     },
-   
   {
       title: "Arduino RFID Module for MFRC522",
       href: "",
@@ -317,7 +316,7 @@ export const DATA = {
       dates: "November 2024 - June 2025",
       location: "Luanda, AO",
       description:
-       "Developed custom pages and UI on the Taxpayers portal using JPA, JSF and Primefaces, developed modules and integration with SIGT and Oracle's PSRM using Java and Spring.", image:
+       "Developed custom pages and UI on the Taxpayers portal using JPA, JSF and Primefaces, developed modules and integration with SIGT and Oracle's PSRM using Java, Spring, Oracle, Gitlab CI.", image:
          "/tis.png",
        links: [
         {
