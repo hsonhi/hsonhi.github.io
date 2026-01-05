@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A software engineer who loves complex challenges and helping people. Feel free to get in Touch.",
   summary:
-    "I started developing applications at [2014](/#education), since then i have always kept up with the latest trends in technology mainly software development stacks, cloud computing and AI services. [I pursued a degree in business information systems](/#education) where i also took part in a programming competition.",
+    "I started developing applications around 2014, since then i have always kept up with the latest trends in technology mainly software development stacks, cloud computing and AI. I pursued a degree in business information systems where i also took part in a programming competition.",
   avatarUrl: "/.png",
   skills: [
     "React",
@@ -80,7 +80,7 @@ export const DATA = {
       href: "https://unipiaget-angola.org",
       badges: [],
       location: "Luanda, AO",
-      title: "Tech Lead & Software Engineer",
+      title: "Tech Lead & Senior Software Engineer",
       logoUrl: "/piaget.png",
       start: "June 2018",
       end: "October 2024",
@@ -92,7 +92,7 @@ export const DATA = {
       href: "https://clickit.ao/",
       badges: [],
       location: "Luanda, AO",
-      title: "Software Developer & Technical Consultant",
+      title: "Senior Software Developer & Technical Consultant",
       logoUrl: "/clickit.png",
       start: "February 2018",
       end: "May 2018",
@@ -134,7 +134,7 @@ export const DATA = {
       {
       title: "Portal do Contribuinte",
       href: "",
-      dates: "June 2025",
+      dates: "",
       active: true,
       description:
         "Developed custom pages and UI on the Taxpayers portal using JPA, JSF and Primefaces, developed modules and integration with SIGT and Oracle's PSRM using Java and Spring.",
@@ -153,7 +153,7 @@ export const DATA = {
         {
           type: "Application",
           href: "https://portaldocontribuinte.minfin.gov.ao/",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globelock className="size-3" />,
         },
       ],
       image: "",
@@ -163,7 +163,7 @@ export const DATA = {
   {
       title: "Arduino RFID Module for MFRC522",
       href: "",
-      dates: "August 2025",
+      dates: "",
       active: true,
       description:
         "Arduino sketch with RFID Library for MFRC522. The goal of this project was to create a data reader for vehicle immobilizer systems using RFID encryption.",
@@ -186,10 +186,10 @@ export const DATA = {
      {
       title: "Giant SA",
       href: "",
-      dates: "September 2025",
+      dates: "",
       active: true,
       description:
-       "A software prototype for an [Insurance company](https://giantseguros.co.ao/) with a working model used to visualize, test, and refine the user interface (UI) and key functionalities. It includes features like policy management, claims processing and client handling.",
+       "A software prototype for an insurance company with a working model to visualize, test, and refine the user interface. It includes features such as claims processing and client handling.",
       technologies: [
         "React.js",
         "Next.js",
@@ -199,7 +199,11 @@ export const DATA = {
         "SQL",
       ],
       links: [
-        {
+         {
+          type: "Application",
+          href: "https://giantsa.vercel.app/",
+          icon: <Icons.globelock className="size-3" />,
+        }, {
           type: "Source",
           href: "https://github.com/hsonhi/giantsa",
           icon: <Icons.github className="size-3" />,
@@ -211,10 +215,10 @@ export const DATA = {
     {
       title: "RecibosMCX",
       href: "",
-      dates: "October 2025",
+      dates: "",
       active: true,
       description:
-        "RecibosMCX is a receipt validator for a popular financial app called [MULTICAIXA Express](https://multicaixa.ao/pt/oferta/canais/utilizadores/multicaixa-express/), I decided to build this tool to be a point of reference for the authenticity of receipts in order to avoid losses resulting from false and dishonest transfers.",
+        "A receipt validator for a popular financial app. I decided to build this tool to validate the authenticity of receipts in order to avoid losses resulting from false and dishonest transfers.",
       technologies: [
         "React.js",
         "Vite",
@@ -229,7 +233,7 @@ export const DATA = {
         {
           type: "Application",
           href: "https://recibosmcx.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globelock className="size-3" />,
         }, 
         {
           type: "Source",
@@ -244,7 +248,7 @@ export const DATA = {
      {
       title: "Gestreino",
       href: "",
-      dates: "June 2025",
+      dates: "",
       active: true,
       description:
         "Gestreino emerges as an indispensable application that presents a set of tests that allow for standardized assessment to the effective prescription of a fitness training program.",
@@ -253,14 +257,13 @@ export const DATA = {
         "MVC",
         "Plesk",
         "SQL Server",
-        "Bootstrap",
         "Javascript",
       ],
       links: [
         {
           type: "Application",
           href: "https://gestreino.pt/",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globelock className="size-3" />,
         }, 
         {
           type: "Source",
@@ -276,7 +279,7 @@ export const DATA = {
     {
       title: "Factplus SaaS",
       href: "",
-      dates: "March 2021",
+      dates: "",
       active: true,
       description:
         "FactPlus is an invoice SaaS that was built to accommodate the need of many companies and self-employed individuals that still use manual and poorly automated methods.",
@@ -289,19 +292,18 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://factplus.co.ao/",
-            icon: <Icons.globe className="h-4 w-4" />,
-        },
-         {
           type: "Application",
           href: "https://app.factplus.co.ao/",
-            icon: <Icons.globe className="h-4 w-4" />,
+            icon: <Icons.globelock className="size-3" />,
         },
          {
           type: "API",
           href: "https://api.factplus.co.ao/documentation/",
-           icon: <Icons.globe className="h-4 w-4" />,
+           icon: <Icons.dock className="size-3" />,
+        }, {
+          type: "Website",
+          href: "https://factplus.co.ao/",
+            icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
@@ -320,23 +322,8 @@ export const DATA = {
        links: [
         {
           title: "Application",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globelock className="h-4 w-4" />,
           href: "https://portaldocontribuinte.minfin.gov.ao/",
-        },],
-    },
-    {
-      title: "Portal FrontOffice",
-      dates: "November 2024 - June 2025",
-      location: "Luanda, AO",
-      description:
-        "Developed custom modules and integration with SIGT and Oracle's PSRM.",
-      image:
-         "/tis.png",
-      links: [
-        {
-          title: "Application",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://frontoffice.minfin.gov.ao/frontoffice/login",
         },],
     },
     {
@@ -355,7 +342,7 @@ export const DATA = {
       dates: "November 2024 - June 2025",
       location: "Luanda, AO",
       description:
-        "Worked on Taxpayers portal specifically SAFT modules, built with Node.js, Vue.js, Java, Microservices, Oracle webserver and database 12c.",
+        "Developed code for SAFT modules built with Node.js, Vue.js, Java, Microservices, Oracle webserver and database 12c.",
       image:
         "/tis.png",
       links: [],
@@ -365,13 +352,13 @@ export const DATA = {
        dates: "November 2021 - October 2024",
       location: "Luanda, AO",
       description:
-        "Piagest is an ambitious project born from the need for a 100% Angolan platform for integrated academic and university management. It offers agile management of the various academic sectors, departments, centers, and organic units of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
+        "Developed and led an ambitious project born from the need for a 100% Angolan platform for integrated academic and university management. It offers agile management of the various academic sectors, departments, centers, and organic units of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
       image:
         "/piaget.png",
       links: [
         {
           title: "Application",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globelock className="h-4 w-4" />,
           href: "http://41.63.177.143:12014/",
         },
       ],
@@ -387,7 +374,7 @@ export const DATA = {
       links: [
         {
           title: "Application",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globelock className="h-4 w-4" />,
           href: "http://41.63.177.143:12012/",
         },
       ],
@@ -407,7 +394,7 @@ export const DATA = {
      dates: "June 2018 - November 2021",
       location: "Luanda, AO",
       description:
-        "Developed a custom reporting tool to manage data extraction more efficiently, from student records, financial data, cash reports, bursary records to government statistics and custom reports extraction. Integrated with various data sources for easy access and management.",
+        "Developed a custom reporting tool to manage data extraction more efficiently, from student records, financial data, cash reports, bursary records to government statistics and custom reports. Integrated with various data sources for easy access and management.",
       image:
        "/piaget.png",
       links: [],
@@ -443,12 +430,12 @@ export const DATA = {
       dates: "June 2018 - November 2021",
       location: "Luanda, AO",
       description:
-        "Developed and upgraded the Academic office software, main functions include student records management, grades, bursary programmes, special exams registration and various types of student letters and documentation. The system was built using .NET, C#, WF and SAP Crystal Reports with Oracle and MS SQL databases, upgraded from VB and VBA, and integrated within the UMS system.",
+        "Developed and upgraded the Academic office software, main functions include student records management, grades, bursary programmes, special exams registration and various types of student letters and documentation. The system was built using .NET, C#, WF and SAP Crystal Reports with Oracle and MS SQL databases, upgraded from VB and VBA, and integrated within the UMS system built with Java.",
       image:
          "/piaget.png",
       links: [ {
           title: "Application (UMS, Sigarra)",
-          icon: <Icons.globe className="h-4 w-4" />,
+          icon: <Icons.globelock className="h-4 w-4" />,
           href: "http://41.63.177.143/unipiaget/si_main",
         },],
     },
@@ -457,7 +444,7 @@ export const DATA = {
        dates: "June 2018 - November 2021",
       location: "Luanda, AO",
       description:
-        "Timetable management is one of the most critical, and most chaotic jobs in higher education operations. As institutions grow, spreadsheet-based schedules and static PDFs struggle to cope with full-time and part-time programs, electives, labs, research hours and cross-department teaching. I developed Timetable management solutions to plan, validate and publish academic schedules.",
+        "Developed Timetable management solutions to plan, validate and publish academic schedules. Timetable management is one of the most critical, and most chaotic jobs in higher education operations. As institutions grow, spreadsheet-based schedules and static PDFs struggle to cope with full-time and part-time programs, electives, labs, research hours and cross-department teaching.",
       image:
          "/piaget.png",
       links: [],
@@ -477,7 +464,7 @@ export const DATA = {
       dates: "June 2018 - November 2021",
       location: "Luanda, AO",
       description:
-        "Developed custom software to manage HR policies, Employees Time tracking integrated to biometric attendance systems, Leaves, Holidays and Absences as well as advanced reporting for decision making purposes. The system was built using .NET and WF and integrated with existing ERP systems (Logic pulse, CentralGest).",
+        "Developed custom software to manage HR policies, Employees Time tracking integrated to biometric attendance systems, Leaves, Holidays and Absences as well as advanced reporting for decision making purposes. The system was built using .NET and WF and integrated with existing ERP systems such as Logic pulse and CentralGest.",
       image:
         "/piaget.png",
       links: [],
@@ -492,47 +479,26 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Gestreino",
-      dates: "November 2024 - Present",
-      location: "Luanda, AO",
-      description:
-        "Many gyms, health clubs, and sports clubs operate without objective and effective monitoring of their clients'/athletes' condition. Consequently, the common goal—improving performance without the onset of injuries and chronic fatigue—is not always achieved, hindering client loyalty and increasing costs for equipment, instructors/coaches, and more. Gestreino emerges as an indispensable application for the operationalization of the training process, scientifically compiling all the knowledge on training methodology and its organizational aspects, from the presentation of a set of tests that allow for standardized assessment to the effective prescription of a training program.",
-      image:
-        "/clickit.png",
-      links: [
-        {
-          title: "Website",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://gestreino.pt/",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/hsonhi/gestreino-v2",
-        },
-      ],
-    },
-    {
       title: "Factplus SaaS",
       dates: "September 2017 - March 2021",
       location: "Luanda, AO",
       description: "FactPlus is an invoice SaaS that was built to accommodate the need of many companies and self-employed individuals that still use manual and poorly automated methods. It offers intuitive, simple, and easy-to-use invoicing, providing an alternative to existing softwares on the market  and reducing costs from their high licensing fees.",
       image:
         "/clickit.png",
-      links: [ {
-          title: "Website",
-          href: "https://factplus.co.ao/",
-            icon: <Icons.globe className="h-4 w-4" />,
-        },
+      links: [
          {
           title: "Application",
           href: "https://app.factplus.co.ao/",
-            icon: <Icons.globe className="h-4 w-4" />,
+            icon: <Icons.globelock className="h-4 w-4" />,
         },
          {
           title: "API",
           href: "https://api.factplus.co.ao/documentation/",
-           icon: <Icons.globe className="h-4 w-4" />,
+           icon: <Icons.dock className="h-4 w-4" />,
+        }, {
+          title: "Website",
+          href: "https://factplus.co.ao/",
+            icon: <Icons.globe className="h-4 w-4" />,
         },{
           title: "YouTube",
           href: "https://www.youtube.com/@factplus8009",

@@ -163,11 +163,8 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Over the course of the years i have built {" "}
-                  {DATA.hackathons.length+11}+ projects across different domains. I have worked with teams across Brasil, India and Portugal 
-                  . It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals, here are a few of them.
+                  Over the course of the years i have built projects across different domains working with teams across Brasil, India and Portugal, 
+                  here are a few of them.
                 </p>
               </div>
             </div>
