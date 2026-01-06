@@ -310,7 +310,7 @@ export const DATA = {
         "/factplus.mp4",
     },
   ],
-  hackathons: [
+  domains: [
     {
       title: "Portal do Contribuinte",
       dates: "November 2024 - June 2025",
@@ -330,7 +330,7 @@ export const DATA = {
       dates: "November 2024 - June 2025",
       location: "Luanda, AO",
       description:
-        "Developed custom api services with Java, Spring, OpenAPI and SOAP including report design and development with Jasper studio and Jasper libs for Java.",
+        "Developed custom API services with Java, Spring, OpenAPI and SOA services including report design and development with Jasper studio and Jasper libs for Java.",
       icon: "public",
       image:
          "/tis.png",
@@ -351,7 +351,7 @@ export const DATA = {
        dates: "November 2021 - October 2024",
       location: "Luanda, AO",
       description:
-        "Developed and led an ambitious project born from the need for a 100% Angolan platform for integrated academic and university management. It offers agile management of the various academic sectors, departments, centers, and organic units of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
+        "Developed and led an ambitious project born from the need of a platform for integrated academic and university management. It offers agile management of the various academic sectors, departments, centers, and organic units of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
       image:
         "/piaget.png",
       links: [
@@ -509,7 +509,7 @@ export const DATA = {
       dates: "September 2016 - January 2018",
       location: "Luanda, AO",
       description:
-        "Recruitment and Selection Management System, it's a software that automates and centralizes the entire hiring process, from posting job openings, collecting and screening resumes, scheduling interviews, administering tests, to communicating with candidates, using technology to streamline tasks, reduce costs, improve the experience, and ensure that the company attracts and hires the best talent efficiently and strategically.",
+        "Developed a recruitment and selection management system, it's a software that automates and centralizes the entire hiring process, from posting job openings, collecting and screening resumes, scheduling interviews, administering tests, to communicating with candidates, using technology to streamline tasks, reduce costs, improve the experience, and ensure that the company attracts and hires the best talent efficiently and strategically.",
       image:
         "/mwangobrain.jpg",
       links: [],
@@ -519,7 +519,7 @@ export const DATA = {
       dates: "September 2016 - January 2018",
       location: "Luanda, AO",
       description:
-        "The National Scouting organization of Angola, was founded in 1994 and became a member of the World Organization of the Scout Movement on June 13, 1998, and was officially welcomed into WOSM at the World Scout Conference in South Africa in July 1999. This project involved developing a full stack web application to manage the entire organization and it's members, events, and activities.",
+        "Developed a full stack web application to manage The National Scouting organization of Angola (NGO), it was founded in 1994 and became a member of the World Organization of the Scout Movement on June 13, 1998. This project involved a complex architecture of the various administrative regions including members, events, and activities.",
       image:
         "/mwangobrain.jpg",
       links: [],
