@@ -8,7 +8,7 @@ export const DATA = {
   location: "Luanda, AO",
   locationLink: "",
   description:
-    "A software engineer who loves complex challenges and helping people, feel free to get in touch.",
+    "A software engineer who loves complex challenges and building projects that matter, feel free to get in touch.",
   summary:
     "I started developing applications around 2014, since then i have always kept up with the latest trends in software engineering, cloud computing, AI-driven development, microservices and data-driven applications. I pursued a degree in business information systems where i also took part in a programming competition.",
   avatarUrl: "/.png",
@@ -351,7 +351,7 @@ export const DATA = {
        dates: "November 2021 - October 2024",
       location: "Luanda, AO",
       description:
-        "Developed and led an ambitious project born from the need of a platform for integrated academic and university management. It offers agile management of the various academic sectors, departments, centers, and organic units of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
+        "Developed and led an ambitious project born from the need of an agile platform for higher education institutions. It offers a complex management solution of the diverse academic sector including departments, centers, schools and faculties of the Piaget Institute of Angola (Jean Piaget University of Angola, Jean Piaget Higher Polytechnic Institute of Benguela).",
       image:
         "/piaget.png",
       links: [
